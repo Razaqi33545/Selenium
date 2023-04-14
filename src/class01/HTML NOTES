@@ -1,0 +1,13 @@
+Usually every tag has a corresponding closing tag and some tags will not have closing tags.
+HTML Openning Tag <html> and HTML Clossing tag </html>
+
+<html> all code should be here </html>  ==> html is a parent tag.
+
+<html>                                              // This is the parent tag for body
+    <body>                                          // This is parent tag for h1 and h2 // h1 and h2 are siblings
+            <h1> hello </h1>                        // text is between opening and closing tags such as <input>I am a text</input>
+            <h2> How are you </h2>
+    </body>
+</html>
+
+

@@ -1,0 +1,33 @@
+************Selenium class07***********
+***********Webdriver waits***************
+
+1.Implicit
+2.Explicit
+
+Implicit wait--> it is a global wait
+and is going to wait until the Webelement is found.
+
+Explicit wait--> is conditional wait that is going to wait until
+                 a condition is fulfiled
+
+syntax:
+         WebDriverWait wait= new WebDriverWait(driver,timeOut);
+        wait.until(ExpectedConditions.condition(element));
+
+Can we have both Implicit and Explicit wait in the same code?
+YES
+
+always have implcit wait in start , it is a good practice
+
+FLuent wait---> will be taught in interview preperations
+
+tables  can be accessed in three levels
+
+1.table level access--> thw whole table will be printed (in a single string)
+
+2.Row level access -->all the rows of the table will be individually printed
+
+3.Column level access- --> all the columns of table will be printed individually
+
+what is the major differnce in all the access levels in coding?
+the major difference is  the Xpath

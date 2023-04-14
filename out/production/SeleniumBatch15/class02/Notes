@@ -1,0 +1,27 @@
+WebElement: Everything we see on a webpage is a webelement.
+
+DOM ==> Document Object Model
+
+Selenium Locators:
+1) ID
+2) Name
+3) class
+4) linkText ==> This can only be used with links and it must have a text. (a link is usually placed in tag <a>).
+5) Partial LinkText.  ==> This can only be used with links and it must have a text. (a link is usually place in tag <a>).
+6) tagName ==> Just specify the tag that u want to find (When we search for tag we use //a which means find me <a>)
+7) Css
+8) Xpath
+
+Why do we need locators? ==> Whenever we need to find a particular webElement, we use locators.
+
+Why do we need so many locators?
+1) sometimes there might be a locator with duplicate value.
+2) sometimes the developers might not provide you with all the locators.
+
+There are some important things that you should remember while selecting a locator:
+1) if an attribute value has a number in it, it is better to avoid it and use an alternative locator because the number can be dynamic.
+
+If you inspect a website and then press ctrl+f it will open search in the elements section of inspection
+and you can then find any tag such as title.
+
+If there are two elements with the same attribute value that will happen? selenium is going to get the first one it encounters.
